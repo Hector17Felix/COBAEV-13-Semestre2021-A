@@ -53,3 +53,68 @@ P {color:red;
 Donde:
 
 ![Estructura](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Imagenes/csses.jpg)
+
+
+### JavaScript
+
+**JavaScript** es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. Como lenguaje de scripting del lado del servidor, se trata de una de las principales tecnologías de la **World Wide Web**. Por ejemplo, al navegar por Internet, en cualquier momento en el que vea un carrusel de imágenes, un menú desplegable *“click-to-show”* (clic para mostrar), o cambien de manera dinámica los elementos de color en una página web, estará viendo los efectos de **JavaScript**.
+
+Anteriormente, las páginas web eran estáticas, similares a las páginas de un libro. Una página estática mostraba principalmente información en un diseño fijo y no todo aquello que esperamos de un sitio web moderno.** JavaScript
+JavaScript,** surgió como una tecnología del lado del navegador para hacer que las aplicaciones web fueran más dinámicas. Por medio de ** JavaScript
+JavaScript**,los navegadores eran capaces de responder a la interacción de los usuarios y cambiar la distribución del contenido en la página web.
+
+Su estructura es la siguiente:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        var nombre = "Reyli";
+
+        window.alert(nombre);
+
+        alert(nombre);
+
+    </script>
+</body>
+</html>
+```
+La idea es la siguiente:
+
+Progrma que dada la variable "nombre" la muestra en una ventana emergente
+Donde:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //1- Declaración de variables
+        var nombre = "Reyli";
+
+        //2- Funcion
+        //3- Intrucciones
+        window.alert(nombre);
+        alert(nombre);
+
+        //4- Devolver resultados
+        //Se monstrara en pantalla dos recuadros con el nombre de la variable "nombre"
+
+    </script>
+</body>
+</html>
+```
