@@ -3,7 +3,7 @@
 
 #### **TIPOS DE LISTAS**
 
-**Lista Desordenada** [Ver aquí](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Tipos%20de%20Listas.html).
+**Lista Desordenada** [Ver aquí](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/HTML/Tipo%20de%20Listas.html).
 
 Las listas desordenadas en HTML nos sirven para mostrar los elementos sin ningún tipo de orden, simplemente precedidos por una viñeta que puede ser un punto, un cuadrado,…
 
