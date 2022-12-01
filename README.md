@@ -29,3 +29,27 @@ Su estructura es la siguiente:
  Donde:
 
 ![Estructura](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Imagenes/estructura-basica-de-una-pagina-web-en-html.jpg)
+
+### CSS
+
+**CSS** significa *Cascading Style Sheets* y parten de un concepto simple pero muy potente: aplicar estilos (colores, formas, márgenes, etc...) a uno o varios documentos (generalmente documentos **HTML**, páginas webs) de forma automática y masiva.
+
+Se le denomina estilos en cascada porque se lee, procesa y aplica el código desde arriba hacia abajo (siguiendo un patrón denominado herencia que trataremos más adelante) y en el caso de existir ambigüedad (código que se contradice), se siguen una serie de normas para resolver dicha ambigüedad.
+
+La idea de CSS es la de utilizar el concepto de separación de presentación y contenido. Este concepto se basa en que, como programadores, lo ideal es separar claramente el código que escribimos. ¿Por qué? Porque con el tiempo, esto hará que el código sea más fácil de modificar y mantener.
+
+La idea es la siguiente:
+
+    Los documentos HTML (contenido) incluirán sólo información y datotodo lo relativo a la información a transmitir.
+    Los documentos CSS (presentación) inclurán sólo los aspectos relacionados con el estilo (diseño, colores, formas, etc...).
+
+Se estructura de esta manera:
+```css
+P {color:red; 
+   font-size:20px;
+  }
+```
+
+Donde:
+
+![Estructura](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Imagenes/csses.jpg)
