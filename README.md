@@ -98,3 +98,49 @@ Que nos mostrará lo siguiente:
 A. 101
 B. 102
 C. 103
+
+** Listas Descriptivas**
+
+Las listas de definiciones en HTML nos sirven para montar listas en las que tenemos la estructura valor y definición. Suelen ser listas para definir términos, como si fuese un diccionario, si bien pueden ser cualquier par valor-definición.
+
+Las listas de definiciones en HTML se construyen mediante el elemento `<dl>`.
+```html
+<dl> ... </dl>
+
+```
+En este caso, dentro de las listas de definiciones en HTML tenemos dos elementos anidados: el que representa al valor `<dt>` y el que representa a la definición `<dd>`. De esta forma la estructura de las listas en HTML de definiciones es la siguiente:
+```html
+<dl>
+  <dt>Término1</dt>
+  <dd>Definición 1</dd>
+  <dt>Término 2</dt>
+  <dd>Definición 2</dd>
+  ...
+  <dt>Término N</dt>
+  <dd>Definición N</dd>
+</dl>
+```
+Si queremos crear una lista en HTML con definiciones de palabras, podemos escribir lo siguiente:
+```html
+<dl>
+    <dt>Sirena</dt>
+    <dd>Animal fabuloso que vive en el mar, con cabeza y torso de mujer y extremidades inferiores de pez o ave.</dd>
+    <dd>Aparato que emite un sonido fuerte que se oye a mucha distancia y que sirve para avisar de alguna cosa.</dd>
+    <dt>Vela</dt>
+    <dd >Una vela, candela, espelma o bujía es una fuente de iluminación, consistente en una mecha que asciende por el interior de una barra de combustible sólido, ...</dd>
+    <dd>La vela es un deporte náutico que consiste en controlar la dinámica de un barco propulsado solamente por el viento en sus velas.</dd>
+</dl>
+```
+Que nos mostrará lo siguiente:
+
+**Sirena**
+
+Animal fabuloso que vive en el mar, con cabeza y torso de mujer y extremidades inferiores de pez o ave.
+
+Aparato que emite un sonido fuerte que se oye a mucha distancia y que sirve para avisar de alguna cosa.
+
+**Vela**
+
+Una vela, candela, espelma o bujía es una fuente de iluminación, consistente en una mecha que asciende por el interior de una barra de combustible sólido, ...
+
+La vela es un deporte náutico que consiste en controlar la dinámica de un barco propulsado solamente por el viento en sus velas.
