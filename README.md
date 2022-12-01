@@ -147,6 +147,6 @@ La vela es un deporte náutico que consiste en controlar la dinámica de un barc
 
 Puedes visitar un ejemplo hecho en mi estadia en el COBAEV 13 => [Tipos de listas](http://https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Tipos%20de%20Listas.html "Tipos de listas")
 
-[Lista Desordenada] (./Update Tipos de Listas.html)
+[Lista Desordenada](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/commit/9847bab0ac729be995f011d648bb7b37d1cb9f63).
 
 
