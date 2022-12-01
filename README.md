@@ -87,7 +87,7 @@ I - Listas de números romanos en mayúsculas
 Los valores indicados al principio son los que le podemos asignar al atributo `type` de la lista ordenada en HTML, de la siguiente manera
 
 ```html
-   <ol type="1">
+   <ol type="A">
        <li>101</li>
        <li>102</li>
        <li>103</li>
@@ -95,6 +95,6 @@ Los valores indicados al principio son los que le podemos asignar al atributo `t
 
 ```
 Que nos mostrará lo siguiente:
-1. 101
-2. 102
-3. 103
+A. 101
+B. 102
+C. 103
