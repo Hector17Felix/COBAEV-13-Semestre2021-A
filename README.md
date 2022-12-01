@@ -146,6 +146,4 @@ Una vela, candela, espelma o bujía es una fuente de iluminación, consistente e
 La vela es un deporte náutico que consiste en controlar la dinámica de un barco propulsado solamente por el viento en sus velas.
 
 
-[Lista Desordenada](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Tipos%20de%20Listas.html).
-
 
