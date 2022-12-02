@@ -175,4 +175,39 @@ o un fragmento vacío
 ```html
 href="#"
 ```
- para enlazar a la parte superior de la página actual. 
+ para enlazar a la parte superior de la página actual.
+ 
+ Si queremos ser mas específicos:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Hipervinculos</title>
+</head>
+<body>
+    <!-- Enlace EXTERNO (a una página de otro dominio) -->
+    <a href="https://developer.mozilla.org">ir a MDN</a>
+
+<!-- Supongamos que estamos en el dominio www.3con14.pro -->
+
+    <!-- Un enlace INTERNO ABSOLUTO sería:  -->
+    <a href="http://3con14.pro/teoria/definicion.html">definición</a>
+
+    <!-- Un enlace INTERNO RELATIVO sería:  -->
+    <a href="./teoria/definicion.html">definición</a>
+
+    <!-- Un enlace de POSICIÓN a otro lugar de la misma página:  -->
+    <a href="./teoria/#ejemplo4">Ejemplo 4</a>
+
+    <!-- Un enlace de POSICIÓN a otro lugar de distinta página:  -->
+    <a href="./teoria/tipos.html#tipo3">Tipo 3</a>
+
+    <!-- Un enlace de POSICIÓN a otro lugar de otro dominio:  -->
+    <a href="http://www.w3c.es/noticias.html#premios">Tipo 3</a>
+</body>
+</html>
+```
