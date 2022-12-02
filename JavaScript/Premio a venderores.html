@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premio a venderores</title>
+</head>
+<body>
+    <script>
+        var cantidadvendidad,premio;
+        cantidadvendidad=prompt('Introduce la cantidad de ventas mensuales');
+        if(cantidadvendidad<20000){
+            document.write('No obtines premio');
+        }
+        else if(cantidadvendidad>=20000 && cantidadvendidad<50000){
+            premio=0.05*cantidadvendidad/100;
+            document.write('Tu premio es de ', premio);
+        }
+        else if(cantidadvendidad>=50000 && cantidadvendidad<100000){
+            premio=0.08*cantidadvendidad/100;
+            document.write('Tu premio es de ', premio);
+        }
+        else(cantidadvendida>=100000);{
+            premio=0.10*cantidadvendidad/100;
+            document.write('Tu premio es de ', premio)
+        }
+    </script>
+</body>
+</html>
