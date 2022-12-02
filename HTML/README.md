@@ -225,7 +225,10 @@ En documentos HTML una tabla puede ser considerada, resumidamente, como un grupo
 La etiqueta `<table>`... `</table>` es el contenedor de la tabla y por tanto las filas y columnas de una tabla deben estar dentro de este par de etiquetas.
 Mientras que `<tr>`... `</tr>`  es una fila y  `<td>`... `</td>` es una celda dentro de una fila.
 
+Se Distribuye de esta manera
+
 ![Estructura](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Imagenes/tabla1.png)
+
 ***** *Las tablas NO deben usarse para maquetar una Web.*
 
 **TABLAS AVANZADAS**
@@ -279,6 +282,7 @@ Para comprender mejor tenemos el siguiente ejemplo:
 
 ```
 En el navegador se vería así:
+
 ![Estructura](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Imagenes/TbA.jpg)
 
 Como he dicho anteriormente las tablas, por defecto, no muestran las líneas que dan forma a la tabla. Así que se crearon con este codigo css:
