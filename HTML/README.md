@@ -211,3 +211,81 @@ href="#"
 </body>
 </html>
 ```
+
+## **TIPOS DE TABLAS**
+
+**TABLAS SIMPLES**  [Ver aquí](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/HTML/Tabla%20simple.html).
+
+Una tabla no es otra cosa más que un medio de organizar datos en filas y columnas. Este concepto ha estado presente en nuestra sociedad por un largo período de tiempo y ha sido adoptado por HTML en sus etapas iniciales, como una forma de transmitir información que, de otro modo, no sería comprendida tan fácilmente.
+
+En documentos HTML una tabla puede ser considerada, resumidamente, como un grupo de filas donde cada una contiene a un grupo de celdas. Esto es conceptualmente distinto a un grupo de columnas que contiene a un grupo de filas, y esta diferencia tendrá un impacto en la composición y comportamiento de la tabla.
+
+***** *Las tablas NO deben usarse para maquetar una Web.*
+
+La etiqueta `<table>`... `</table>` es el contenedor de la tabla y por tanto las filas y columnas de una tabla deben estar dentro de este par de etiquetas.
+Mientras que `<tr>`... `</tr>`  es una fila y  `<td>`... `</td>` es una celda dentro de una fila.
+
+![Estructura](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Imagenes/tabla1.png)
+***** *Las tablas NO deben usarse para maquetar una Web.*
+
+**TABLAS AVANZADAS**
+
+Tablas avanzadas `<table>`,  `<tr>` y `<td>` hay otras etiquetas y atributos que podemos utilizar al crear tablas en HTML:
+- `<th>` : Se emplea para definir las celdas que son cabecera de una fila o de una columna de la tabla.
+- `<caption>` : Se emplea para definir la leyenda o título de una tabla.
+
+Y entre los atributos más comunes tenemos:
+
+- `<colspan>` : "numero"  que es el número de columnas que ocupa esta celda.
+- `<rowspan>` : "numero"  que es el número de filas que ocupa esta celda.
+
+Para comprender mejor tenemos el siguiente ejemplo:
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla avanzada</title>
+</head>
+<body>
+    <table>
+        <caption>Resultados Globales</caption>
+        <tr>
+          <th colspan="4">Curso 2019/2010</th>
+        </tr>
+        <tr>
+          <th colspan="2">1º ESO - A</th>
+          <th colspan="2">1º ESO - A</th>
+        </tr>
+        <tr>
+          <td>Aprobados</td>
+          <td>Suspensos</td>
+          <td>Aprobados</td>
+          <td>Suspensos</td>
+        </tr>
+        <tr>
+          <td>68%</td>
+          <td>57%</td>
+          <td>32%</td>
+          <td>43%</td>
+        </tr>
+      </table>
+</body>
+</html>
+
+```
+En el navegador se vería así:
+![Estructura](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/Imagenes/TbA.jpg)
+
+Como he dicho anteriormente las tablas, por defecto, no muestran las líneas que dan forma a la tabla. Así que se crearon con este codigo css:
+
+```css
+td,th {
+  padding: 0.5em;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+```
