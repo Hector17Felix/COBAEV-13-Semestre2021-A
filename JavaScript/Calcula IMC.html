@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular IMC</title>
+</head>
+<body>
+    <script>
+        var estatura,kgs,imc;
+        estatura=prompt('Ingrese la su estatura en metros, ejemplo: 1.70');
+        kgs=prompt('Ingrese su peso en kilogramos');
+        imc=kgs/(estatura*estatura);
+        document.write('Tu imc es de', imc);
+        if(imc<18.5){
+            document.write('<br>Tienes peso bajo');
+        }
+        else if(imc>=18.5 && imc<=24.9){
+            document.write('<br>Tu peso es el ideal');
+        }
+        else if(imc>=25 && imc<=29.9){
+            document.write('<br>Tienes peso bajo');
+        }
+
+        else if(imc>=30 && imc<=34.9){
+            document.write('<br>Tienes obesidad moderada(Tipo I)');
+        }
+        else if(imc>=35 && imc<=39.9){
+            document.write('<br>Tienes obesidad obesidad severa (Tipo II)');
+        }
+        else if(imc>=40 && imc<=49.9){
+            document.write('<br>Tienes obesidad morbida');
+        }
+        else{
+            document.write('<br>Tienes obesidad extrema');
+        }
+        </script>
+</body>
+</html>

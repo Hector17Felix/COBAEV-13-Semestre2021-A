@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sueldo de los trabajadores</title>
+</head>
+<body>
+    <script>
+        var nombre, diasdetrabajo, antidetrabajo, incentivo, aumento, totalapagar, sueldonormal, sueldo;
+        nombre=prompt('Nombre completo');
+        diasdetrabajo=prompt('Dias que a trabajado');
+        if (diasdetrabajo>10){
+            sueldo=300;     
+
+        } else{
+            sueldo=200;
+        }
+        antidetrabajo=prompt('Años trabajando en la empresa');
+        if (antidetrabajo>=10) {
+            incentivo=1000;
+
+        } else {
+            incentivo=400;
+            
+        }
+        document.write('Tu nombre es ', nombre);
+        sueldonormal=diasdetrabajo*sueldo;
+        document.write('<br>Tu sueldo normal es de ', sueldonormal);
+        document.write('<br>Tu incentivo es de ', incentivo);
+        totalapagar=sueldonormal+incentivo;
+        document.write('<br>Tu sueldo total es de ', totalapagar);
+
+    </script>
+    
+</body>
+</html>

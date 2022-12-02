@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calcular que nuemro es mayor</title>
+</head>
+<body>
+    <script>
+        var num1,num2,num3,num4,num5;
+        num1=prompt('Ingrese un numero');
+        num2=prompt('Ingrese un segundo numero');
+        num3=prompt('Ingrese un tercer numero');
+        num4=prompt('Ingrese un cuarto numero');
+        num5=prompt('Ingrese un quinto numero');
+        if(num1==num2 && num1==num3 && num1==num4 && num1==num5){
+            document.write('Todos los numeros son iguales');
+        }
+        else if(num1>num2 && num1>num3 && num1>num4 && num1>num5){
+            document.write('El mayor es el primer numero: ',num1);
+        }
+        else if(num2>num3 && num2>num4 && num2>num5){
+            document.write('El mayor es el segundo numero: ',num2);
+        }
+        else if(num3>num4 && num3>num5){
+            document.write('El mayor es el tercer numero: ',num3);
+        }
+        else if(num4>num5){
+            document.write('El mayor es el cuarto numero: ',num4);
+        }
+        else{
+            document.write('El mayor es el quinto numero: ',num5);
+        }
+    </script>
+</body>
+</html>
