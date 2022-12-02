@@ -1,0 +1,84 @@
+body {
+    background-color: rgba(109, 179, 240, 0.363)
+}
+h1 {
+    font-size:40px;
+    font-family: fantasy;
+    color: Silver ;
+}
+p {
+    font-style: oblique;
+    color: white ;
+    text-align: center;
+}
+
+p.a {
+    font-family: Comic Sans MS;
+    color: Gold;
+    font-size: 20px;
+  }
+p.b {
+    font-family: Comic Sans MS;
+    color: rgb(255, 127, 80);
+    font-size: 20px;
+}
+p.c {
+    font-family: Comic Sans MS;
+    color: rgb(143, 188,139);
+    font-size: 20px;
+}
+p.d {
+    font-family: Comic Sans MS;
+    color: yellow;
+    font-size: 20px;
+}
+p.e {
+    font-family: Comic Sans MS;
+    color: rgb(255, 99, 71);
+    font-size: 20px;
+}
+p.f {
+    font-family: Comic Sans MS;
+    color: rgb(255, 140, 0);
+    font-size: 20px;
+}
+p.g {
+    font-family: Comic Sans MS;
+    color: rgb(0, 128, 128);
+    font-size: 20px;
+}
+p.h {
+    font-family: Comic Sans MS;
+    color: rgb(255, 0, 255);
+    font-size: 20px;
+}
+p.i {
+    font-family: Comic Sans Ms;
+    color: rgb(255, 69, 0);
+    font-size: 20px;
+}
+p.j {
+    font-family: Comic Sans MS;
+    color: rgb(255, 165, 0);
+    font-size: 20px;
+}
+p.k {
+    font-family: Comic Sans MS;
+    color: rgb(128, 128, 0);
+    font-size: 20px;
+}
+p.l {
+    font-family: Comic Sans MS;
+    color: rgb(50, 205, 50);
+    font-size: 20px;
+}
+p.m {
+    font-family: Comic Sans MS;
+    color: rgb(46, 139, 87);
+    font-size: 20px;
+}
+p.a1 {
+    font-family: Arial Black;
+    color: Black;
+    font-size: 20px;
+  }
