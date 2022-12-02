@@ -1,6 +1,6 @@
 # TRABAJOS REALIZADOS EN LA CAPACITACIÓN PARA EL TRABAJO: PROGRAMACIÓN EN JAVA
 
-#### **TIPOS DE LISTAS**
+## **TIPOS DE LISTAS**
 
 **Lista Desordenada** [Ver aquí](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/HTML/Tipo%20de%20Listas.html).
 
@@ -143,3 +143,36 @@ Aparato que emite un sonido fuerte que se oye a mucha distancia y que sirve para
 Una vela, candela, espelma o bujía es una fuente de iluminación, consistente en una mecha que asciende por el interior de una barra de combustible sólido, ...
 
 La vela es un deporte náutico que consiste en controlar la dinámica de un barco propulsado solamente por el viento en sus velas.
+
+## **TIPOS DE ENLACES**
+
+**Hipervinculos** [Ver aquí](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/blob/main/HTML/Hipervinculos.html).
+
+El hipervinculo o hipertexto refiere a enlaces que conectan una página Web con otra, ya sea dentro de la misma página web o entre diferentes páginas del mismo o distintos sitios web. los vínculos son un aspecto fundamental de la Web.
+
+Básicamente podemos dividir los enlaces o links en 3 tipos:
+
+1. Enlaces internos: son los que se dan entre páginas web del mismo dominio.
+1. Enlaces externos: son los que se dan entre páginas web de distinto dominio.
+1. Enlaces de posición:
+	- De un lugar a otro dentro de la misma página.
+	- De un lugar a otro lugar concreto de distinta página del mismo dominio.
+	- De un lugar a otro lugar concreto de una página de otro dominio.
+
+**Etiqueta HTML para enlaces:**
+
+El Elemento HTML anchor  `<a>` crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL. Necesita obligatoriamente el atributo `<href>` que contiene una URL o un fragmento de URL al cual apunta el enlace.
+
+Dentro del atributo  `<href>` la URL puede escribirse de forma **absoluta** (incluyendo el dominio) o **relativa** (sin incluir el dominio) solo para enlaces dentro del mismo dominio. Tanto de una forma u otra, la *ruta* de carpetas (path) debe especificarse.
+
+Este atributo puede ser omitido (a partir de HTML5) para crear un enlace de marcador de posición. Un enlace de marcador de posición se parece a un enlace tradicional, pero que no dirige a algún lugar.
+
+Puede ser utilizado
+```html
+href="#top"
+```
+o un fragmento vacío
+```html
+href="#"
+```
+ para enlazar a la parte superior de la página actual. 
