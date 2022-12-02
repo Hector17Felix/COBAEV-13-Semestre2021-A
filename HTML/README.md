@@ -231,7 +231,7 @@ Se Distribuye de esta manera
 
 ***** *Las tablas NO deben usarse para maquetar una Web.*
 
-**TABLAS AVANZADAS**
+**TABLAS AVANZADAS** [Ver aquí](https://github.com/Hector17Felix/COBAEV-13-Semestre2021-A/tree/main/HTML/Tabla%20Avanzada).
 
 Tablas avanzadas `<table>`,  `<tr>` y `<td>` hay otras etiquetas y atributos que podemos utilizar al crear tablas en HTML:
 - `<th>` : Se emplea para definir las celdas que son cabecera de una fila o de una columna de la tabla.
